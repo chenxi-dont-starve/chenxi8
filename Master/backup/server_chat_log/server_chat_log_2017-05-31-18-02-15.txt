@@ -1,0 +1,6 @@
+[00:00:33]: [Join Announcement] maliut
+[00:01:20]: [Join Announcement] 读书人罢了
+[00:02:03]: [Join Announcement] P.I.E
+[00:02:05]: [Leave Announcement] maliut
+[00:02:06]: [Leave Announcement] 读书人罢了
+[00:02:06]: [Leave Announcement] P.I.E

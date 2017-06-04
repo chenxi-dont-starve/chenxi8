@@ -1,0 +1,1157 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 51%
+	Available Physical Memory: 7990m/16336m
+	Available Page File: 5281m/18768m
+	Available Virtual Memory: 3976m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 29m
+	Working Set Size: 29m
+	Quota Peak Page Pool Usage: 233k
+	Quota Page Pool Usage: 220k
+	Quota Peak Non Paged Pool Usage:15k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 218082
+[00:00:00]: Current time: Fri Jun 02 12:32:18 2017
+
+[00:00:00]: Don't Starve Together: 218082 WIN32
+[00:00:00]: Build Date: 2136
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 13884 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198139846162 -backup_log_count 10 -shard Master -sigprefix DST_Master 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (14524)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.98
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'ConsoleInput' (7796)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198139846162
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.15063
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3201
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 960
+    driverDate                20161229000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             21.21.13.7653
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:01]: modoverrides.lua enabling workshop-729309574	
+[00:00:01]: modoverrides.lua enabling workshop-897634060	
+[00:00:01]: modoverrides.lua enabling workshop-727325644	
+[00:00:01]: modoverrides.lua enabling workshop-721491336	
+[00:00:01]: modoverrides.lua enabling workshop-378160973	
+[00:00:01]: modoverrides.lua enabling workshop-723721217	
+[00:00:01]: modoverrides.lua enabling workshop-737441707	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-721491336	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-723721217	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727325644	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-729309574	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-737441707	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-897634060	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-378160973 (Global Positions) Version:1.6.6	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-721491336_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-721491336 (DD Hibiki) Version:1.4.8	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-723721217_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-723721217 (DD Inazuma) Version:1.2.6	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-727325644_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-727325644 (DD Ikazuchi) Version:1.2.5	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-729309574_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-729309574 (DD Akatsuki) Version:1.1.3	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-737441707_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-737441707 (DD Shiranui) Version:1.1.2	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-897634060_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:01]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:01]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:01]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:01]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:01]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:01]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:01]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:01]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:01]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:01]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:01]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:01]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:01]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:01]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:01]: Loading mod: workshop-897634060 (DD Shigure) Version:1.0.3	
+[00:00:01]: Mod: workshop-737441707 (DD Shiranui)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-737441707 (DD Shiranui)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-737441707 (DD Shiranui)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-897634060 (DD Shigure)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-897634060 (DD Shigure)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-897634060 (DD Shigure)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-723721217 (DD Inazuma)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-723721217 (DD Inazuma)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-723721217 (DD Inazuma)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-727325644 (DD Ikazuchi)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-727325644 (DD Ikazuchi)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-727325644 (DD Ikazuchi)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-721491336 (DD Hibiki)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-721491336 (DD Hibiki)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-721491336 (DD Hibiki)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-729309574 (DD Akatsuki)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-729309574 (DD Akatsuki)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-729309574 (DD Akatsuki)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-721491336	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-723721217	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727325644	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-729309574	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-737441707	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-897634060	
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: Registering mod namespace "workshop-378160973"
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: bloom_enabled	false	
+[00:00:01]: loaded saveindex	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	Registering prefabs	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	  Registering prefab file: prefabs/shiranui	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	    shiranui	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	  Registering prefab file: prefabs/shiranui_none	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	    shiranui_none	
+[00:00:03]: Mod: workshop-737441707 (DD Shiranui)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	Registering prefabs	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	  Registering prefab file: prefabs/shigure	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	    shigure	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	  Registering prefab file: prefabs/shigure_none	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	    shigure_none	
+[00:00:04]: Mod: workshop-897634060 (DD Shigure)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	Registering prefabs	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	  Registering prefab file: prefabs/inazuma	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	    inazuma	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	  Registering prefab file: prefabs/inazuma_none	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	    inazuma_none	
+[00:00:04]: Mod: workshop-723721217 (DD Inazuma)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	Registering prefabs	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/ikazuchi	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	    ikazuchi	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/ikazuchi_none	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	    ikazuchi_none	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/anchor	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	    anchor	
+[00:00:04]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	Registering prefabs	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	  Registering prefab file: prefabs/hibiki	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	    hibiki	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	  Registering prefab file: prefabs/hibiki_none	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	    hibiki_none	
+[00:00:04]: Mod: workshop-721491336 (DD Hibiki)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	Registering prefabs	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	  Registering prefab file: prefabs/akatsuki	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	    akatsuki	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	  Registering prefab file: prefabs/akatsuki_none	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	    akatsuki_none	
+[00:00:04]: Mod: workshop-729309574 (DD Akatsuki)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [IPC] Signal 'DST_Master_Kill' opened  #000004E0
+[00:00:04]: [IPC] Registering handler for signal #000004E0
+[00:00:04]: [IPC] Handle #000004E0 added to the Eventhandles
+[00:00:04]: [IPC] Signal 'DST_Master_Starting' opened  #00000460
+[00:00:04]: [IPC] Sending signal... #00000460
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_X-4JQOXc) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: false
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 8766
+[00:00:05]:   SteamMasterServerPort: 27016
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: true
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   Event: false
+[00:00:05]:   MaxPlayers: 6
+[00:00:05]:   GameMode: endless
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: social
+[00:00:05]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-897634060	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-737441707	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-729309574	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-721491336	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-723721217	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-727325644	
+[00:00:05]: Online Server Started on port: 10999
+[00:00:06]: unloading prefabs for mod MOD_workshop-737441707	
+[00:00:06]: unloading prefabs for mod MOD_workshop-897634060	
+[00:00:06]: unloading prefabs for mod MOD_workshop-723721217	
+[00:00:06]: unloading prefabs for mod MOD_workshop-727325644	
+[00:00:06]: unloading prefabs for mod MOD_workshop-721491336	
+[00:00:06]: unloading prefabs for mod MOD_workshop-729309574	
+[00:00:06]: unloading prefabs for mod MOD_workshop-378160973	
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.01 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: lua_close took 0.02 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]: running main.lua
+	
+[00:00:06]: loaded modindex	
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:06]: modoverrides.lua enabling workshop-729309574	
+[00:00:06]: modoverrides.lua enabling workshop-897634060	
+[00:00:06]: modoverrides.lua enabling workshop-727325644	
+[00:00:06]: modoverrides.lua enabling workshop-721491336	
+[00:00:06]: modoverrides.lua enabling workshop-378160973	
+[00:00:06]: modoverrides.lua enabling workshop-723721217	
+[00:00:06]: modoverrides.lua enabling workshop-737441707	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-721491336	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-723721217	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727325644	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-729309574	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-737441707	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-897634060	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-378160973 (Global Positions) Version:1.6.6	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-721491336	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-721491336 (DD Hibiki) Version:1.4.8	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-723721217	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-723721217 (DD Inazuma) Version:1.2.6	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-727325644	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-727325644 (DD Ikazuchi) Version:1.2.5	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-729309574	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-729309574 (DD Akatsuki) Version:1.1.3	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-737441707	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-737441707 (DD Shiranui) Version:1.1.2	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-897634060	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-729309574	
+[00:00:06]: Overriding mod workshop-729309574's option Properly Dressed with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Draw Fire with value On	
+[00:00:06]: Overriding mod workshop-729309574's option Nameship Leadership with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-897634060	
+[00:00:06]: Overriding mod workshop-897634060's option Lucky Survivor with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Soothing Rain with value On	
+[00:00:06]: Overriding mod workshop-897634060's option Priority Redirection with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-727325644	
+[00:00:06]: Overriding mod workshop-727325644's option Rely on Me! with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Lightning Speed with value On	
+[00:00:06]: Overriding mod workshop-727325644's option Weigh Anchor with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-721491336	
+[00:00:06]: Overriding mod workshop-721491336's option Survivor's Guilt with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Death Lv Drain (Trust) with value Off	
+[00:00:06]: Overriding mod workshop-721491336's option Trustworthy with value On	
+[00:00:06]: Overriding mod workshop-721491336's option General Winter with value On	
+[00:00:06]: Overriding mod workshop-721491336's option Phoenix's Resilience with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:06]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-723721217	
+[00:00:06]: Overriding mod workshop-723721217's option Serious Side with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Truly an Angel with value On	
+[00:00:06]: Overriding mod workshop-723721217's option Reluctant Fighter with value On	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-737441707	
+[00:00:06]: Overriding mod workshop-737441707's option Unyielding Spirit with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Calm Resolve with value On	
+[00:00:06]: Overriding mod workshop-737441707's option Guiding Glow with value On	
+[00:00:06]: Loading mod: workshop-897634060 (DD Shigure) Version:1.0.3	
+[00:00:06]: Mod: workshop-737441707 (DD Shiranui)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-737441707 (DD Shiranui)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-737441707 (DD Shiranui)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-897634060 (DD Shigure)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-897634060 (DD Shigure)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-897634060 (DD Shigure)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-723721217 (DD Inazuma)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-723721217 (DD Inazuma)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-723721217 (DD Inazuma)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-727325644 (DD Ikazuchi)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-727325644 (DD Ikazuchi)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-727325644 (DD Ikazuchi)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-721491336 (DD Hibiki)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-721491336 (DD Hibiki)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-721491336 (DD Hibiki)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-729309574 (DD Akatsuki)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-729309574 (DD Akatsuki)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-729309574 (DD Akatsuki)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-721491336	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-723721217	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727325644	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-729309574	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-737441707	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-897634060	
+[00:00:06]: LOADING LUA SUCCESS
+[00:00:06]: Registering mod namespace "workshop-378160973"
+[00:00:06]: PlayerDeaths could not load morgue	
+[00:00:06]: PlayerHistory could not load player_history	
+[00:00:06]: bloom_enabled	false	
+[00:00:06]: loaded saveindex	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: 	Unload FE	
+[00:00:06]: 	Unload FE done	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	Registering prefabs	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	  Registering prefab file: prefabs/shiranui	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	    shiranui	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	  Registering prefab file: prefabs/shiranui_none	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	    shiranui_none	
+[00:00:07]: Mod: workshop-737441707 (DD Shiranui)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	Registering prefabs	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	  Registering prefab file: prefabs/shigure	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	    shigure	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	  Registering prefab file: prefabs/shigure_none	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	    shigure_none	
+[00:00:07]: Mod: workshop-897634060 (DD Shigure)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	Registering prefabs	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	  Registering prefab file: prefabs/inazuma	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	    inazuma	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	  Registering prefab file: prefabs/inazuma_none	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	    inazuma_none	
+[00:00:07]: Mod: workshop-723721217 (DD Inazuma)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	Registering prefabs	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/ikazuchi	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	    ikazuchi	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/ikazuchi_none	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	    ikazuchi_none	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering prefab file: prefabs/anchor	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	    anchor	
+[00:00:07]: Mod: workshop-727325644 (DD Ikazuchi)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	Registering prefabs	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	  Registering prefab file: prefabs/hibiki	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	    hibiki	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	  Registering prefab file: prefabs/hibiki_none	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	    hibiki_none	
+[00:00:07]: Mod: workshop-721491336 (DD Hibiki)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	Registering prefabs	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	  Registering prefab file: prefabs/akatsuki	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	    akatsuki	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	  Registering prefab file: prefabs/akatsuki_none	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	    akatsuki_none	
+[00:00:07]: Mod: workshop-729309574 (DD Akatsuki)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:07]: 	LOAD BE	
+[00:00:09]: 	LOAD BE: done	
+[00:00:09]: Loading world: session/0B9815CFD2761F92/0000000044	
+[00:00:09]: Save file is at version 4.77	
+[00:00:09]: Begin Session: 0B9815CFD2761F92
+[00:00:10]: saving to server_temp/server_save	
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-737441707/images/map_icons/shiranui.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-897634060/images/map_icons/shigure.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-723721217/images/map_icons/inazuma.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-727325644/images/map_icons/ikazuchi.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-721491336/images/map_icons/hibiki.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-729309574/images/map_icons/akatsuki.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:10]: Loading Nav Grid	
+[00:00:10]: setting 	summerlength	15	
+[00:00:10]: setting 	isnightmaredawn	false	
+[00:00:10]: setting 	elapseddaysinseason	3	
+[00:00:10]: setting 	isfullmoon	false	
+[00:00:10]: setting 	moisture	1907.9024658203	
+[00:00:10]: setting 	springlength	20	
+[00:00:10]: setting 	isnightmarewild	false	
+[00:00:10]: setting 	moonphase	quarter	
+[00:00:10]: setting 	precipitationrate	0	
+[00:00:10]: setting 	iswet	true	
+[00:00:10]: setting 	isnewmoon	false	
+[00:00:10]: setting 	iswinter	false	
+[00:00:10]: setting 	israining	false	
+[00:00:10]: setting 	isnightmarewarn	false	
+[00:00:10]: setting 	precipitation	none	
+[00:00:10]: setting 	cavephase	day	
+[00:00:10]: setting 	moistureceil	3508.8547363281	
+[00:00:10]: setting 	isday	true	
+[00:00:10]: setting 	iscaveday	true	
+[00:00:10]: setting 	season	spring	
+[00:00:10]: setting 	timeinphase	0.046839497884115	
+[00:00:10]: setting 	temperature	13.21579163828	
+[00:00:10]: setting 	isnightmarecalm	false	
+[00:00:10]: setting 	isnight	false	
+[00:00:10]: setting 	isdusk	false	
+[00:00:10]: setting 	iscavedusk	false	
+[00:00:10]: setting 	isautumn	false	
+[00:00:10]: setting 	issnowing	false	
+[00:00:10]: setting 	iswaxingmoon	false	
+[00:00:10]: setting 	pop	0.48534300953805	
+[00:00:10]: setting 	snowlevel	0	
+[00:00:10]: setting 	issnowcovered	false	
+[00:00:10]: setting 	autumnlength	20	
+[00:00:10]: setting 	phase	day	
+[00:00:10]: setting 	nightmaretime	0	
+[00:00:10]: setting 	winterlength	15	
+[00:00:10]: setting 	isspring	true	
+[00:00:10]: setting 	nightmarephase	none	
+[00:00:10]: setting 	remainingdaysinseason	17	
+[00:00:10]: setting 	cycles	38	
+[00:00:10]: setting 	iscavenight	false	
+[00:00:10]: setting 	nightmaretimeinphase	0	
+[00:00:10]: setting 	wetness	41.786960601807	
+[00:00:10]: setting 	time	0.014637343088786	
+[00:00:10]: setting 	issummer	false	
+[00:00:10]: OVERRIDE: setting	flowers	to	often	
+[00:00:10]: OVERRIDE: setting	butterfly	to	often	
+[00:00:15]: Reconstructing topology	
+[00:00:15]: 	...Sorting points	
+[00:00:15]: 	...Sorting edges	
+[00:00:15]: 	...Connecting nodes	
+[00:00:15]: 	...Validating connections	
+[00:00:15]: 	...Housekeeping	
+[00:00:15]: 	...Done!	
+[00:00:15]: 1 uploads added to server. From server_temp
+[00:00:15]: About to start a shard with these settings:
+[00:00:15]:   ShardName: [SHDMASTER]
+[00:00:15]:   ShardID: 1
+[00:00:15]:   ShardRole: MASTER
+[00:00:15]:   MasterHost: (null)
+[00:00:15]:   MasterBind: 127.0.0.1
+[00:00:15]:   MasterPort: 10888
+[00:00:15]: [Shard] Starting master server
+[00:00:15]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:15]: [Shard] Shard server started on port: 10888
+[00:00:15]: [IPC] Signal 'DST_Master_Ready' opened  #0000064C
+[00:00:15]: [IPC] Sending signal... #0000064C
+[00:00:15]: Telling Client our new session identifier: 0B9815CFD2761F92
+[00:00:15]: ModIndex: Load sequence finished successfully.	
+[00:00:15]: Reset() returning
+[00:00:15]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:15]: [Steam] SteamGameServer_Init success
+[00:00:16]: Validating portal[3] <-> 2653276478[3] (inactive)	
+[00:00:16]: Validating portal[5] <-> 2653276478[5] (inactive)	
+[00:00:16]: Validating portal[9] <-> 2653276478[9] (inactive)	
+[00:00:16]: Validating portal[4] <-> 2653276478[4] (inactive)	
+[00:00:16]: Validating portal[2] <-> 2653276478[2] (inactive)	
+[00:00:16]: Validating portal[10] <-> 2653276478[10] (inactive)	
+[00:00:16]: Validating portal[7] <-> 2653276478[7] (inactive)	
+[00:00:16]: Validating portal[8] <-> 2653276478[8] (inactive)	
+[00:00:16]: Validating portal[6] <-> 2653276478[6] (inactive)	
+[00:00:16]: Validating portal[1] <-> 2653276478[1] (inactive)	
+[00:00:16]: Sim paused
+[00:00:20]: [Shard] Slave Caves(2653276478) connected: [LAN] 127.0.0.1
+[00:00:22]: [Shard] Slave Caves(2653276478) ready!
+[00:00:22]: World 2653276478 is now connected	
+[00:00:22]: Validating portal[3] <-> 2653276478[3] (disabled)	
+[00:00:22]: Validating portal[5] <-> 2653276478[5] (disabled)	
+[00:00:22]: Validating portal[9] <-> 2653276478[9] (active)	
+[00:00:22]: Validating portal[4] <-> 2653276478[4] (disabled)	
+[00:00:22]: Validating portal[2] <-> 2653276478[2] (disabled)	
+[00:00:22]: Validating portal[10] <-> 2653276478[10] (active)	
+[00:00:22]: Validating portal[7] <-> 2653276478[7] (disabled)	
+[00:00:22]: Validating portal[8] <-> 2653276478[8] (disabled)	
+[00:00:22]: Validating portal[6] <-> 2653276478[6] (active)	
+[00:00:22]: Validating portal[1] <-> 2653276478[1] (disabled)	
+[00:00:24]: New incoming connection 127.0.0.1|50270 <3094571334147172454>
+[00:00:24]: Client connected from [LAN] 127.0.0.1|50270 <3094571334147172454>
+[00:00:24]: ValidateGameSessionToken pgs-sing^KU_X-4JQOXc^DontStarveTogether^t9VYR9U7fstIiVvEjsfnYBWbCmspniupdRITH5Fk0KI= for <3094571334147172454>
+[00:00:24]: Client authenticated: (KU_X-4JQOXc) maliut
+[00:00:24]: [Steam] Authenticated host '76561198139846162'
+[00:00:25]: [Shard] Read save location file for (KU_X-4JQOXc)
+[00:00:34]: Resuming user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000044
+[00:00:34]: Spawning player at: [Load] (276.49, -0.00, 86.54)	
+[00:00:34]: Sim unpaused
+[00:00:56]: [P2P] Session request for '76561198246358940'
+[00:00:59]: [P2P] Create session: 196.46.73.65|1 '76561198246358940'
+[00:00:59]: [P2P] Received from 196.46.73.65|1 '76561198246358940'
+[00:00:59]: [P2P] Sent to 196.46.73.65|1 '76561198246358940'
+[00:01:00]: New incoming connection 196.46.73.65|1 <24255439704877958>
+[00:01:00]: Client connected from 196.46.73.65|1 <24255439704877958>
+[00:01:00]: ValidateGameSessionToken pgs-sing^KU_nxw0IQ5k^DontStarveTogether^WFO+TDfsJZUQzGH8turdMfZqjCbLl3ggQ4i6ZAsb3Sc= for <24255439704877958>
+[00:01:00]: Client authenticated: (KU_nxw0IQ5k) 243777820
+[00:01:00]: [Steam] SendUserConnectAndAuthenticate for '76561198246358940'
+[00:01:00]: [Steam] Authenticated client '76561198246358940'
+[00:01:01]: [Shard] Read save location file for (KU_nxw0IQ5k)
+[00:01:33]: Resuming user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000043
+[00:01:33]: Could not find anim [idle_loop] in bank [ghost]
+[00:01:33]: Spawning player at: [Load] (342.22, 0.00, 53.46)	
+[00:01:52]: Could not find anim [idle_loop] in bank [ghost]
+[00:01:55]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000045
+[00:05:46]: [P2P] Session request for '76561198101203480'
+[00:05:50]: [P2P] Create session: 196.46.73.66|1 '76561198101203480'
+[00:05:50]: [P2P] Received from 196.46.73.66|1 '76561198101203480'
+[00:05:50]: [P2P] Sent to 196.46.73.66|1 '76561198101203480'
+[00:05:50]: New incoming connection 196.46.73.66|1 <4065366386913839900>
+[00:05:50]: Client connected from 196.46.73.66|1 <4065366386913839900>
+[00:05:50]: ValidateGameSessionToken pgs-sing^KU_nxw0IOVT^DontStarveTogether^SimX1YmYv5+9U4kScGQ4IK/POyRMe33yc4PJbDNTU30= for <4065366386913839900>
+[00:05:51]: Client authenticated: (KU_nxw0IOVT) P.I.E
+[00:05:51]: [Steam] SendUserConnectAndAuthenticate for '76561198101203480'
+[00:05:52]: [Steam] Authenticated client '76561198101203480'
+[00:05:53]: [Shard] Read save location file for (KU_nxw0IOVT)
+[00:07:11]: [P2P] Session request for '76561198277375951'
+[00:07:15]: [P2P] Create session: 196.46.73.67|1 '76561198277375951'
+[00:07:15]: [P2P] Received from 196.46.73.67|1 '76561198277375951'
+[00:07:15]: [P2P] Sent to 196.46.73.67|1 '76561198277375951'
+[00:07:15]: New incoming connection 196.46.73.67|1 <879896421561482239>
+[00:07:15]: Client connected from 196.46.73.67|1 <879896421561482239>
+[00:07:15]: ValidateGameSessionToken pgs-sing^KU_nxw0IOVj^DontStarveTogether^AyI3m9Gt0/gpEN/7KtBj6a4qb7K6GbYl6VsAgXJFg0A= for <879896421561482239>
+[00:07:16]: Client authenticated: (KU_nxw0IOVj) 读书人罢了
+[00:07:16]: [Steam] SendUserConnectAndAuthenticate for '76561198277375951'
+[00:07:16]: [Steam] Authenticated client '76561198277375951'
+[00:07:18]: [Shard] Read save location file for (KU_nxw0IOVj)
+[00:07:21]: Resuming user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000026
+[00:07:21]: Spawning player at: [Load] (280.00, 0.00, 90.58)	
+[00:07:46]: Resuming user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000043
+[00:07:46]: Spawning player at: [Load] (275.94, 0.00, 89.58)	
+[00:08:29]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000045
+[00:08:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000045
+[00:08:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000045
+[00:08:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000045
+[00:08:29]: Serializing world: session/0B9815CFD2761F92/0000000045
+[00:08:32]: [P2P] Session request for '76561198314742024'
+[00:08:35]: [P2P] Create session: 196.46.73.68|1 '76561198314742024'
+[00:08:35]: [P2P] Received from 196.46.73.68|1 '76561198314742024'
+[00:08:35]: [P2P] Sent to 196.46.73.68|1 '76561198314742024'
+[00:08:35]: New incoming connection 196.46.73.68|1 <2549701576094215857>
+[00:08:35]: Client connected from 196.46.73.68|1 <2549701576094215857>
+[00:08:35]: ValidateGameSessionToken pgs-sing^KU_nxw0IPS6^DontStarveTogether^ocrRizPH9VLMjbHOPFKz82cacN14gqvkEqcF7h3qI0s= for <2549701576094215857>
+[00:08:36]: Client authenticated: (KU_nxw0IPS6) duocai
+[00:08:36]: [Steam] SendUserConnectAndAuthenticate for '76561198314742024'
+[00:08:37]: [Steam] Authenticated client '76561198314742024'
+[00:08:38]: [Shard] Read save location file for (KU_nxw0IPS6)
+[00:09:32]: Resuming user: session/0B9815CFD2761F92/A7M7NQ04J5O6
+[00:09:49]: Spawn request: wilson from duocai
+[00:09:49]: Skin request: (wilson_none) () () () ()
+[00:09:49]: Spawning player at: [Fixed] (282.00, 0.00, 102.00)	
+[00:09:49]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000046
+[00:10:46]: CURL ERROR: (metric.kleientertainment.com) Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:15:59]: Could not find anim [death] in bank [ghost]
+[00:15:59]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000046
+[00:16:29]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000046
+[00:16:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000046
+[00:16:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000046
+[00:16:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000046
+[00:16:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000046
+[00:16:29]: Serializing world: session/0B9815CFD2761F92/0000000046
+[00:16:35]: Could not find anim [idle_loop] in bank [ghost]
+[00:16:38]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000047
+[00:21:47]: Could not find anim [death] in bank [ghost]
+[00:21:47]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000047
+[00:21:53]: Could not find anim [idle_loop] in bank [ghost]
+[00:21:56]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000047
+[00:24:29]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000047
+[00:24:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000047
+[00:24:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000047
+[00:24:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000047
+[00:24:29]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000047
+[00:24:30]: Serializing world: session/0B9815CFD2761F92/0000000047
+[00:25:26]: Could not find anim [death] in bank [ghost]
+[00:25:26]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000048
+[00:30:05]: [200] Account Communication Success (6)
+[00:30:05]: Received (KU_X-4JQOXc) from TokenPurpose
+[00:30:46]: CURL ERROR: (metric.kleientertainment.com) Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:32:30]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000048
+[00:32:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000048
+[00:32:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000048
+[00:32:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000048
+[00:32:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000048
+[00:32:30]: Serializing world: session/0B9815CFD2761F92/0000000048
+[00:40:30]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000049
+[00:40:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000049
+[00:40:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000049
+[00:40:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000049
+[00:40:30]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000049
+[00:40:30]: Serializing world: session/0B9815CFD2761F92/0000000049
+[00:43:45]: [Steam] SendUserDisconnect for '76561198277375951'
+[00:43:45]: Connection lost to 196.46.73.67|1 <879896421561482239>
+[00:43:45]: [Shard] (KU_nxw0IOVj) disconnected from [SHDMASTER](1)
+[00:43:45]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000050
+[00:43:48]: [Steam] SendUserDisconnect for '76561198246358940'
+[00:43:48]: Connection lost to 196.46.73.65|1 <24255439704877958>
+[00:43:48]: [Shard] (KU_nxw0IQ5k) disconnected from [SHDMASTER](1)
+[00:43:48]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000050
+[00:43:57]: [Steam] SendUserDisconnect for '76561198139846162'
+[00:43:57]: [Shard] (KU_X-4JQOXc) disconnected from [SHDMASTER](1)
+[00:43:57]: [IPC] Received shutdown signal.
+[00:43:57]: Serializing user: session/0B9815CFD2761F92/A7K7S49MJ236/0000000050
+[00:43:57]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000050
+[00:43:57]: Serializing user: session/0B9815CFD2761F92/A7M7NQ04J5O6/0000000050
+[00:43:58]: Serializing world: session/0B9815CFD2761F92/0000000050
+[00:43:58]: Truncating to snapshot #50...
+[00:43:58]:  - session/0B9815CFD2761F92/0000000039
+[00:43:58]:  - session/0B9815CFD2761F92/0000000040
+[00:43:58]:  - session/0B9815CFD2761F92/0000000041
+[00:43:58]:  - session/0B9815CFD2761F92/0000000042
+[00:43:58]:  - session/0B9815CFD2761F92/0000000043
+[00:43:58]:  - session/0B9815CFD2761F92/0000000044
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000044
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000043
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000042
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000041
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000040
+[00:43:58]:  - session/0B9815CFD2761F92/A7K7S49MJ236/0000000039
+[00:43:58]:  - session/0B9815CFD2761F92/A7KPPKIJNOKL/0000000042
+[00:43:58]:  - session/0B9815CFD2761F92/A7KPPKIJNOKL/0000000041
+[00:43:58]:  - session/0B9815CFD2761F92/A7KPPKIJNOKL/0000000040
+[00:43:58]:  - session/0B9815CFD2761F92/A7KPPKIJNOKL/0000000039
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1UT/0000000026
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000043
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000042
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000041
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000040
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J1VD/0000000039
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000043
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000042
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000041
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000040
+[00:43:58]:  - session/0B9815CFD2761F92/A7M7NQ04J8BE/0000000039
+[00:43:58]:    27 file(s) removed
+[00:43:58]: unloading prefabs for mod MOD_workshop-737441707	
+[00:43:58]: unloading prefabs for mod MOD_workshop-897634060	
+[00:43:58]: unloading prefabs for mod MOD_workshop-723721217	
+[00:43:58]: unloading prefabs for mod MOD_workshop-727325644	
+[00:43:58]: unloading prefabs for mod MOD_workshop-721491336	
+[00:43:58]: unloading prefabs for mod MOD_workshop-729309574	
+[00:43:58]: unloading prefabs for mod MOD_workshop-378160973	
+[00:43:58]: [Shard] Stopping shard mode
+[00:43:58]: Collecting garbage...
+[00:43:59]: lua_gc took 0.16 seconds
+[00:43:59]: ~ShardLuaProxy()
+[00:43:59]: ~ItemServerLuaProxy()
+[00:43:59]: ~InventoryLuaProxy()
+[00:43:59]: ~NetworkLuaProxy()
+[00:43:59]: ~SimLuaProxy()
+[00:43:59]: lua_close took 0.34 seconds
+[00:43:59]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:43:59]: shaders/ui_yuv.ksh - 1
+[00:43:59]: CurlRequestManager::ClientThread::Main() complete
+[00:43:59]: HttpClient2 discarded 1 callbacks.
+[00:43:59]: Shutting down

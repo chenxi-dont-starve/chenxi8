@@ -1,0 +1,560 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 43%
+	Available Physical Memory: 9246m/16336m
+	Available Page File: 7933m/18768m
+	Available Virtual Memory: 3976m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 29m
+	Working Set Size: 29m
+	Quota Peak Page Pool Usage: 235k
+	Quota Page Pool Usage: 221k
+	Quota Peak Non Paged Pool Usage:15k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 218082
+[00:00:00]: Current time: Wed May 31 16:22:19 2017
+
+[00:00:00]: Don't Starve Together: 218082 WIN32
+[00:00:00]: Build Date: 2136
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 6680 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198139846162 -backup_log_count 10 -shard Master -sigprefix DST_Master 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (12608)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.83
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:01]: [Warning] Authorized application D:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is not setup in the firewall.
+[00:00:01]: Authorized application D:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'ConsoleInput' (9272)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198139846162
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.15063
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3201
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 960
+    driverDate                20161229000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             21.21.13.7653
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: running main.lua
+	
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: bloom_enabled	false	
+[00:00:01]: Could not load saveindex	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:02]: 	Load FE	
+[00:00:03]: 	Load FE: done	
+[00:00:03]: ModIndex: Load sequence finished successfully.	
+[00:00:03]: Reset() returning
+[00:00:03]: [IPC] Signal 'DST_Master_Kill' opened  #000004BC
+[00:00:03]: [IPC] Registering handler for signal #000004BC
+[00:00:03]: [IPC] Handle #000004BC added to the Eventhandles
+[00:00:03]: [IPC] Signal 'DST_Master_Starting' opened  #00000494
+[00:00:03]: [IPC] Sending signal... #00000494
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_X-4JQOXc) from TokenPurpose
+[00:00:04]: Starting Dedicated Server Game	
+[00:00:04]: Network tick rate: U=15(2), D=0
+[00:00:04]: About to start a server with the following settings:
+[00:00:04]:   Dedicated: true
+[00:00:04]:   Online: true
+[00:00:04]:   Passworded: false
+[00:00:04]:   ServerPort: 10999
+[00:00:04]:   SteamAuthPort: 8766
+[00:00:04]:   SteamMasterServerPort: 27016
+[00:00:04]:   ClanID: false
+[00:00:04]:   ClanOnly: false
+[00:00:04]:   ClanAdmin: false
+[00:00:04]:   LanOnly: false
+[00:00:04]:   FriendsOnly: true
+[00:00:04]:   EnableAutosaver: true
+[00:00:04]:   EncodeUserPath: true
+[00:00:04]:   PVP: false
+[00:00:04]:   Event: false
+[00:00:04]:   MaxPlayers: 6
+[00:00:04]:   GameMode: endless
+[00:00:04]:   OverridenDNS: 
+[00:00:04]:   PauseWhenEmpty: true
+[00:00:04]:   VoteEnabled: false
+[00:00:04]:   InternetBroadcasting: true
+[00:00:04]:   Intent: social
+[00:00:05]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	desc	 V: 	预设自定义 2. 你的地盘，你做主！	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	CUSTOM_PRESET_2	
+[00:00:05]: 	K: 	location	 V: 	forest	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	自定义预设 2	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:05]: 	K: 	ordered_story_setpieces	 V: 	table: 07C44BD0	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:05]: 		K: 	2	 V: 	Maxwell5	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 07C44E00	
+[00:00:05]: 		K: 	alternatehunt	 V: 	default	
+[00:00:05]: 		K: 	angrybees	 V: 	default	
+[00:00:05]: 		K: 	antliontribute	 V: 	default	
+[00:00:05]: 		K: 	autumn	 V: 	default	
+[00:00:05]: 		K: 	bearger	 V: 	default	
+[00:00:05]: 		K: 	beefalo	 V: 	often	
+[00:00:05]: 		K: 	beefaloheat	 V: 	default	
+[00:00:05]: 		K: 	bees	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	often	
+[00:00:05]: 		K: 	birds	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	default	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	butterfly	 V: 	often	
+[00:00:05]: 		K: 	buzzard	 V: 	default	
+[00:00:05]: 		K: 	cactus	 V: 	often	
+[00:00:05]: 		K: 	carrot	 V: 	often	
+[00:00:05]: 		K: 	catcoon	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	day	 V: 	default	
+[00:00:05]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:05]: 		K: 	deerclops	 V: 	default	
+[00:00:05]: 		K: 	disease_delay	 V: 	default	
+[00:00:05]: 		K: 	dragonfly	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	often	
+[00:00:05]: 		K: 	flowers	 V: 	often	
+[00:00:05]: 		K: 	frograin	 V: 	default	
+[00:00:05]: 		K: 	goosemoose	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	often	
+[00:00:05]: 		K: 	houndmound	 V: 	default	
+[00:00:05]: 		K: 	hounds	 V: 	default	
+[00:00:05]: 		K: 	hunt	 V: 	default	
+[00:00:05]: 		K: 	krampus	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	lightning	 V: 	default	
+[00:00:05]: 		K: 	lightninggoat	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	lureplants	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	merm	 V: 	default	
+[00:00:05]: 		K: 	meteorshowers	 V: 	default	
+[00:00:05]: 		K: 	meteorspawner	 V: 	default	
+[00:00:05]: 		K: 	moles	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	often	
+[00:00:05]: 		K: 	penguins	 V: 	default	
+[00:00:05]: 		K: 	perd	 V: 	default	
+[00:00:05]: 		K: 	petrification	 V: 	default	
+[00:00:05]: 		K: 	pigs	 V: 	often	
+[00:00:05]: 		K: 	ponds	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	rabbits	 V: 	often	
+[00:00:05]: 		K: 	reeds	 V: 	often	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	default	
+[00:00:05]: 		K: 	rock	 V: 	often	
+[00:00:05]: 		K: 	rock_ice	 V: 	often	
+[00:00:05]: 		K: 	sapling	 V: 	often	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	specialevent	 V: 	default	
+[00:00:05]: 		K: 	spiders	 V: 	default	
+[00:00:05]: 		K: 	spring	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	default	
+[00:00:05]: 		K: 	summer	 V: 	default	
+[00:00:05]: 		K: 	tallbirds	 V: 	default	
+[00:00:05]: 		K: 	task_set	 V: 	default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	default	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	tumbleweed	 V: 	often	
+[00:00:05]: 		K: 	walrus	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	wildfires	 V: 	default	
+[00:00:05]: 		K: 	winter	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	default	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:05]: 	K: 	random_set_pieces	 V: 	table: 07C44CE8	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:05]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:05]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:05]: 		K: 	5	 V: 	Chessy_1	
+[00:00:05]: 		K: 	6	 V: 	Chessy_2	
+[00:00:05]: 		K: 	7	 V: 	Chessy_3	
+[00:00:05]: 		K: 	8	 V: 	Chessy_4	
+[00:00:05]: 		K: 	9	 V: 	Chessy_5	
+[00:00:05]: 		K: 	10	 V: 	Chessy_6	
+[00:00:05]: 		K: 	11	 V: 	Maxwell1	
+[00:00:05]: 		K: 	12	 V: 	Maxwell2	
+[00:00:05]: 		K: 	13	 V: 	Maxwell3	
+[00:00:05]: 		K: 	14	 V: 	Maxwell4	
+[00:00:05]: 		K: 	15	 V: 	Maxwell6	
+[00:00:05]: 		K: 	16	 V: 	Maxwell7	
+[00:00:05]: 		K: 	17	 V: 	Warzone_1	
+[00:00:05]: 		K: 	18	 V: 	Warzone_2	
+[00:00:05]: 		K: 	19	 V: 	Warzone_3	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 07C44DD8	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 07C44F40	
+[00:00:05]: 	K: 	version	 V: 	3	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.01 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: lua_close took 0.03 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]: running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: bloom_enabled	false	
+[00:00:05]: OnLoad slot	2	: World options was nil! Populating with default.	
+[00:00:05]: OnLoad slot	3	: World options was nil! Populating with default.	
+[00:00:05]: OnLoad slot	4	: World options was nil! Populating with default.	
+[00:00:05]: OnLoad slot	5	: World options was nil! Populating with default.	
+[00:00:05]: loaded saveindex	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Load Slot: ... generating new world	
+[00:00:05]: [IPC] Signal 'DST_Master_WorldGen' opened  #000005CC
+[00:00:05]: [IPC] Sending signal... #000005CC
+[00:00:05]: WorldSim::SimThread::SimThread()
+[00:00:05]: ABOUT TO INSTALL STACKTRACE
+[00:00:05]: DoLuaFile scripts/stacktrace.lua
+[00:00:05]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:05]: INSTALLED STACKTRACE
+[00:00:05]: WorldSim::SimThread::SimThread() complete
+[00:00:05]: THREAD - started 'WorldSim' (4824)
+[00:00:05]: WorldSim::SimThread::Main()
+[00:00:05]: DoLuaFile scripts/worldgen_main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: DLC enabled : 	false	
+[00:00:05]: running worldgen_main.lua
+	
+[00:00:05]: SEED = 	1496218944	
+[00:00:05]: Generating world with these parameters:	
+[00:00:05]: level_type	SURVIVAL	
+[00:00:05]: level_data:	
+[00:00:05]: 	K: 	1	 V: 	table: 0AB162B8	
+[00:00:05]: 		K: 	desc	 V: 	预设自定义 2. 你的地盘，你做主！	
+[00:00:05]: 		K: 	hideminimap	 V: 	false	
+[00:00:05]: 		K: 	id	 V: 	CUSTOM_PRESET_2	
+[00:00:05]: 		K: 	location	 V: 	forest	
+[00:00:05]: 		K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 		K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 		K: 	name	 V: 	自定义预设 2	
+[00:00:05]: 		K: 	numrandom_set_pieces	 V: 	4	
+[00:00:05]: 		K: 	ordered_story_setpieces	 V: 	table: 0AB16380	
+[00:00:05]: 			K: 	1	 V: 	Sculptures_1	
+[00:00:05]: 			K: 	2	 V: 	Maxwell5	
+[00:00:05]: 		K: 	override_level_string	 V: 	false	
+[00:00:05]: 		K: 	overrides	 V: 	table: 0AB16790	
+[00:00:05]: 			K: 	alternatehunt	 V: 	default	
+[00:00:05]: 			K: 	angrybees	 V: 	default	
+[00:00:05]: 			K: 	antliontribute	 V: 	default	
+[00:00:05]: 			K: 	autumn	 V: 	default	
+[00:00:05]: 			K: 	bearger	 V: 	default	
+[00:00:05]: 			K: 	beefalo	 V: 	often	
+[00:00:05]: 			K: 	beefaloheat	 V: 	default	
+[00:00:05]: 			K: 	bees	 V: 	default	
+[00:00:05]: 			K: 	berrybush	 V: 	often	
+[00:00:05]: 			K: 	birds	 V: 	default	
+[00:00:05]: 			K: 	boons	 V: 	default	
+[00:00:05]: 			K: 	branching	 V: 	default	
+[00:00:05]: 			K: 	butterfly	 V: 	often	
+[00:00:05]: 			K: 	buzzard	 V: 	default	
+[00:00:05]: 			K: 	cactus	 V: 	often	
+[00:00:05]: 			K: 	carrot	 V: 	often	
+[00:00:05]: 			K: 	catcoon	 V: 	default	
+[00:00:05]: 			K: 	chess	 V: 	default	
+[00:00:05]: 			K: 	day	 V: 	default	
+[00:00:05]: 			K: 	deciduousmonster	 V: 	default	
+[00:00:05]: 			K: 	deerclops	 V: 	default	
+[00:00:05]: 			K: 	disease_delay	 V: 	default	
+[00:00:05]: 			K: 	dragonfly	 V: 	default	
+[00:00:05]: 			K: 	flint	 V: 	often	
+[00:00:05]: 			K: 	flowers	 V: 	often	
+[00:00:05]: 			K: 	frograin	 V: 	default	
+[00:00:05]: 			K: 	goosemoose	 V: 	default	
+[00:00:05]: 			K: 	grass	 V: 	often	
+[00:00:05]: 			K: 	houndmound	 V: 	default	
+[00:00:05]: 			K: 	hounds	 V: 	default	
+[00:00:05]: 			K: 	hunt	 V: 	default	
+[00:00:05]: 			K: 	krampus	 V: 	default	
+[00:00:05]: 			K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:05]: 			K: 	liefs	 V: 	default	
+[00:00:05]: 			K: 	lightning	 V: 	default	
+[00:00:05]: 			K: 	lightninggoat	 V: 	default	
+[00:00:05]: 			K: 	loop	 V: 	default	
+[00:00:05]: 			K: 	lureplants	 V: 	default	
+[00:00:05]: 			K: 	marshbush	 V: 	default	
+[00:00:05]: 			K: 	merm	 V: 	default	
+[00:00:05]: 			K: 	meteorshowers	 V: 	default	
+[00:00:05]: 			K: 	meteorspawner	 V: 	default	
+[00:00:05]: 			K: 	moles	 V: 	default	
+[00:00:05]: 			K: 	mushroom	 V: 	often	
+[00:00:05]: 			K: 	penguins	 V: 	default	
+[00:00:05]: 			K: 	perd	 V: 	default	
+[00:00:05]: 			K: 	petrification	 V: 	default	
+[00:00:05]: 			K: 	pigs	 V: 	often	
+[00:00:05]: 			K: 	ponds	 V: 	default	
+[00:00:05]: 			K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 			K: 	rabbits	 V: 	often	
+[00:00:05]: 			K: 	reeds	 V: 	often	
+[00:00:05]: 			K: 	regrowth	 V: 	default	
+[00:00:05]: 			K: 	roads	 V: 	default	
+[00:00:05]: 			K: 	rock	 V: 	often	
+[00:00:05]: 			K: 	rock_ice	 V: 	often	
+[00:00:05]: 			K: 	sapling	 V: 	often	
+[00:00:05]: 			K: 	season_start	 V: 	default	
+[00:00:05]: 			K: 	specialevent	 V: 	default	
+[00:00:05]: 			K: 	spiders	 V: 	default	
+[00:00:05]: 			K: 	spring	 V: 	default	
+[00:00:05]: 			K: 	start_location	 V: 	default	
+[00:00:05]: 			K: 	summer	 V: 	default	
+[00:00:05]: 			K: 	tallbirds	 V: 	default	
+[00:00:05]: 			K: 	task_set	 V: 	default	
+[00:00:05]: 			K: 	tentacles	 V: 	default	
+[00:00:05]: 			K: 	touchstone	 V: 	default	
+[00:00:05]: 			K: 	trees	 V: 	default	
+[00:00:05]: 			K: 	tumbleweed	 V: 	often	
+[00:00:05]: 			K: 	walrus	 V: 	default	
+[00:00:05]: 			K: 	weather	 V: 	default	
+[00:00:05]: 			K: 	wildfires	 V: 	default	
+[00:00:05]: 			K: 	winter	 V: 	default	
+[00:00:05]: 			K: 	world_size	 V: 	default	
+[00:00:05]: 			K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:05]: 		K: 	random_set_pieces	 V: 	table: 0AB163F8	
+[00:00:05]: 			K: 	1	 V: 	Sculptures_2	
+[00:00:05]: 			K: 	2	 V: 	Sculptures_3	
+[00:00:05]: 			K: 	3	 V: 	Sculptures_4	
+[00:00:05]: 			K: 	4	 V: 	Sculptures_5	
+[00:00:05]: 			K: 	5	 V: 	Chessy_1	
+[00:00:05]: 			K: 	6	 V: 	Chessy_2	
+[00:00:05]: 			K: 	7	 V: 	Chessy_3	
+[00:00:05]: 			K: 	8	 V: 	Chessy_4	
+[00:00:05]: 			K: 	9	 V: 	Chessy_5	
+[00:00:05]: 			K: 	10	 V: 	Chessy_6	
+[00:00:05]: 			K: 	11	 V: 	Maxwell1	
+[00:00:05]: 			K: 	12	 V: 	Maxwell2	
+[00:00:05]: 			K: 	13	 V: 	Maxwell3	
+[00:00:05]: 			K: 	14	 V: 	Maxwell4	
+[00:00:05]: 			K: 	15	 V: 	Maxwell6	
+[00:00:05]: 			K: 	16	 V: 	Maxwell7	
+[00:00:05]: 			K: 	17	 V: 	Warzone_1	
+[00:00:05]: 			K: 	18	 V: 	Warzone_2	
+[00:00:05]: 			K: 	19	 V: 	Warzone_3	
+[00:00:05]: 		K: 	required_prefabs	 V: 	table: 0AB163D0	
+[00:00:05]: 			K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 		K: 	substitutes	 V: 	table: 0AB16718	
+[00:00:05]: 		K: 	version	 V: 	3	
+[00:00:05]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:05]: Prefab Swap Selection: regular grass	
+[00:00:05]: Prefab Swap Selection: regular twigs	
+[00:00:05]: Prefab Swap Selection: regular berries	
+[00:00:05]: Maxwell7	added to	Mole Colony Deciduous	
+[00:00:05]: Warzone_2	added to	Squeltch	
+[00:00:05]: Chessy_1	added to	Great Plains	
+[00:00:05]: Maxwell4	added to	Killer bees!	
+[00:00:05]: New size:	425	default	
+[00:00:05]: Creating story...	
+[00:00:05]: LinkNodesByKeys	
+[00:00:05]: Finding valid start task...	
+[00:00:05]:    ...picked 	Make a pick	
+[00:00:05]: Has start node	Clearing	
+[00:00:05]: Baking map...	425	
+[00:00:05]: [WorldSimActual::GenerateVoronoiMap]
+[00:00:05]: GenerateVoronoiMap [1]:
+[00:00:05]: ...Done.
+[00:00:05]: [AddEmptyNodes]
+[00:00:05]: GenerateVoronoiMap [100]:
+[00:00:07]: ...Done.
+[00:00:07]: [Forest hunters:BG_70:BGForest:blank0] poly.size() == 0
+[00:00:07]: [!]	 edge == NULL
+[00:00:07]: [Make a Beehat:BG_52:BGGrass] poly.size() == 0
+[00:00:07]: [!]	 edge == NULL
+[00:00:07]: [WorldSimActual::GenerateVoronoiMap] complete [success]
+[00:00:07]: [WorldSimActual::ConvertToTileMap]
+[00:00:07]: [ConvertToTileMap]
+[00:00:07]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:07]: [WorldSimActual::SeparateIslands]
+[00:00:07]: [SeparateIslands]
+[00:00:07]: [WorldSimActual::SeparateIslands] complete
+[00:00:07]: Map Baked!	
+[00:00:07]: [WorldSimActual::ForceConnectivity]
+[00:00:07]: [GenerateLandmasses]
+[00:00:07]: [MergeConnectedLandmasses] true
+[00:00:07]: [WorldSimActual::ForceConnectivity] complete
+[00:00:07]: [GetWormholesExtra] connected 0 unconnected 1
+[00:00:07]: [GetWormholesExtra] after: connected 1 unconnected 0
+[00:00:07]: [GetWormholesExtra] pushed 0 wormholes
+[00:00:07]: [WorldSimActual::DrawRoads]
+[00:00:07]: [DrawRoads]
+[00:00:07]: [WorldSimActual::DrawRoads] complete
+[00:00:07]: Encoding...	
+[00:00:07]: Encoding... DONE	
+[00:00:07]: Checking Tags	
+[00:00:07]: Populating voronoi...	
+[00:00:07]: Warning! Could not find a spot for Dev Graveyard in node Great Plains:8:Clearing	
+[00:00:07]: Warning! Could not find a spot for WormholeGrass in node Badlands:6:DragonflyArena	
+[00:00:07]: Warning! Could not find a spot for WormholeGrass in node Make a pick:3:Forest	
+[00:00:07]: Warning! Could not find a spot for MooseNest in node Make a pick:3:Forest	
+[00:00:07]: disconnected tiles...	0	
+[00:00:07]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:07]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:07]: Done forest map gen!	
+[00:00:08]: Checking map...	
+[00:00:08]: Generation complete	
+[00:00:08]: WorldSim::SimThread::Main() complete
+[00:00:08]: Serializing world: session/0B9815CFD2761F92/0000000002
+[00:00:08]: 	Unload FE	
+[00:00:08]: 	Unload FE done	
+[00:00:09]: 	LOAD BE	
+[00:00:10]: 	LOAD BE: done	
+[00:00:10]: Begin Session: 0B9815CFD2761F92
+[00:00:10]: saving to server_temp/server_save	
+[00:00:11]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:11]: Loading Nav Grid	
+[00:00:11]: OVERRIDE: setting	rock_ice	to	often	
+[00:00:11]: OVERRIDE: setting	flowers	to	often	
+[00:00:11]: OVERRIDE: setting	butterfly	to	often	
+[00:00:11]: removing onetime override	rock_ice	
+[00:00:14]: Reconstructing topology	
+[00:00:14]: 	...Sorting points	
+[00:00:14]: 	...Sorting edges	
+[00:00:14]: 	...Connecting nodes	
+[00:00:14]: 	...Validating connections	
+[00:00:14]: 	...Housekeeping	
+[00:00:14]: 	...Done!	
+[00:00:14]: 1 uploads added to server. From server_temp
+[00:00:14]: About to start a shard with these settings:
+[00:00:14]:   ShardName: [SHDMASTER]
+[00:00:14]:   ShardID: 1
+[00:00:14]:   ShardRole: MASTER
+[00:00:14]:   MasterHost: (null)
+[00:00:14]:   MasterBind: 127.0.0.1
+[00:00:14]:   MasterPort: 10888
+[00:00:14]: [Shard] Starting master server
+[00:00:14]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:14]: [Shard] Shard server started on port: 10888
+[00:00:14]: [IPC] Signal 'DST_Master_Ready' opened  #0000052C
+[00:00:14]: [IPC] Sending signal... #0000052C
+[00:00:14]: Telling Client our new session identifier: 0B9815CFD2761F92
+[00:00:14]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:15]: [Steam] SteamGameServer_Init success
+[00:00:15]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:15]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:15]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:15]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:15]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:15]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:15]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:15]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:15]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:15]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:15]: Sim paused
+[00:00:57]: [Shard] Slave Caves(2653276478) connected: [LAN] 127.0.0.1
+[00:01:00]: [Shard] Slave Caves(2653276478) ready!
+[00:01:00]: World 2653276478 is now connected	
+[00:01:00]: Validating portal[1] <-> 2653276478[1] (disabled)	
+[00:01:00]: Validating portal[2] <-> 2653276478[2] (disabled)	
+[00:01:00]: Validating portal[3] <-> 2653276478[3] (disabled)	
+[00:01:00]: Validating portal[4] <-> 2653276478[4] (disabled)	
+[00:01:00]: Validating portal[5] <-> 2653276478[5] (disabled)	
+[00:01:00]: Validating portal[6] <-> 2653276478[6] (disabled)	
+[00:01:00]: Validating portal[7] <-> 2653276478[7] (disabled)	
+[00:01:00]: Validating portal[8] <-> 2653276478[8] (disabled)	
+[00:01:00]: Validating portal[9] <-> 2653276478[9] (disabled)	
+[00:01:00]: Validating portal[10] <-> 2653276478[10] (disabled)	
+[00:01:02]: New incoming connection 127.0.0.1|61811 <4922436435084022447>
+[00:01:02]: Client connected from [LAN] 127.0.0.1|61811 <4922436435084022447>
+[00:01:02]: ValidateGameSessionToken pgs-sing^KU_X-4JQOXc^DontStarveTogether^WjZY6VAGxN+r+kO4cJB9bMXNWRkQ4FIkA0VU9wFWiD0= for <4922436435084022447>
+[00:01:03]: Client authenticated: (KU_X-4JQOXc) maliut
+[00:01:03]: [Steam] Authenticated host '76561198139846162'
+[00:01:06]: [Shard] Read save location file for (KU_X-4JQOXc)
+[00:01:14]: Resuming user: session/0B9815CFD2761F92/A7K7S49MJ236
+[00:01:28]: [Steam] SendUserDisconnect for '76561198139846162'
+[00:01:28]: [Shard] (KU_X-4JQOXc) disconnected from [SHDMASTER](1)
+[00:01:29]: [IPC] Received shutdown signal.
+[00:01:29]: Serializing world: session/0B9815CFD2761F92/0000000003
+[00:01:29]: [Shard] Stopping shard mode
+[00:01:29]: Collecting garbage...
+[00:01:29]: lua_gc took 0.12 seconds
+[00:01:29]: ~ShardLuaProxy()
+[00:01:29]: ~ItemServerLuaProxy()
+[00:01:29]: ~InventoryLuaProxy()
+[00:01:29]: ~NetworkLuaProxy()
+[00:01:29]: ~SimLuaProxy()
+[00:01:30]: lua_close took 0.20 seconds
+[00:01:30]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:01:30]: shaders/ui_yuv.ksh - 1
+[00:01:30]: CurlRequestManager::ClientThread::Main() complete
+[00:01:30]: HttpClient2 discarded 1 callbacks.
+[00:01:30]: Shutting down
